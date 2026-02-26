@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="flex flex-col min-h-screen">
+        <!-- <style>
+            *{
+                outline: 1px red solid;
+            }
+        </style> -->
+
+   <header class="flex justify-between items-center">
+    <h1 class="font-bold text-lg md:text-xl lg:text-2xl text-center">A Responsive Webpage with Framework</h1>
+    <nav class="">
+        <ul class="flex gap-3 px-5 md:gap-6 lg:gap-9">
+            <li class="text-md md:text-lg lg:text-xl text-center"><a href="index.html">Carousel Demo</a></li>
+            <li class="text-md md:text-lg lg:text-xl text-center"><a href="media.html">Media Response Demo</a></li>
+        </ul>
+    </nav>
+   </header>
+
+   <main>
+    <div class="bg-[radial-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.0)),url(/images/mountains.png)] h-[50vh] bg-center bg-no-repeat bg-cover md:bg-position-[center_bottom] lg:bg-center relative flex justify-center items-center text-white bg-blend-overlay">
+        <div class="text-center absolute flex flex-col justify-center items-center gap-3 md:gap-6 lg:gap-9">
+            <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl">Hero Heading</h1>
+            <p class="text-lg md:text-xl lg:text-2xl max-w-[400px] md:max-w-[600px] lg:max-w-[800px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptatibus quas distinctio atque doloribus, quibusdam perspiciatis illum aperiam officia fugiat </p>
+            <div class="flex flex-col gap-3 md:flex-row">
+                <button class="font-bold cursor-pointer text-lg md:text-xl md:mx-5 lg:text-2xl">Learn More</button>
+                <button class="font-bold cursor-pointer text-lg md:text-xl md:mx-5 lg:text-2xl">Sign Up</button>
+                <button class="font-bold cursor-pointer text-lg md:text-xl md:mx-5 lg:text-2xl">Contact Us</button>
+            </div>
+        </div>
+    </div>
+   </main>
+   <div class="grow"></div>
+   <footer class="">Copyright (c) Ashley Flynn</footer>
+   
+
+  </body>
+</html>

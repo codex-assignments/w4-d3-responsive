@@ -34,11 +34,11 @@ function showSlide3() {
 
 function render() {
   if (slideNumber === 1) {
-    showSlide1;
+    showSlide1();
   } else if (slideNumber === 2) {
-    showSlide2;
+    showSlide2();
   } else {
-    showSlide3;
+    showSlide3();
   }
 }
 
