@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="carousel.js" defer></script>
+  </head>
+  <body class="min-h-full p-6">
+
+    <main class="flex flex-col items-center">
+
+        <h1 class="text-3xl font-bold text-center text-slate-400 m-10">
+        Carousel Demo
+        </h1>
+
+        <div class="flex justify-between items-center">
+            <button class="bg-slate-400 px-3 py-2 rounded-lg text-white cursor-pointer" id="prev"">Previous</button>
+            <p class="mx-3" id="label">Slide 1</p>            
+            <button class="bg-slate-400 px-3 py-2 rounded-lg text-white cursor-pointer" id="next">Next</button>
+        </div>
+
+<!-- Main part of carousel -->
+        <div class="mt-4 flex justify-center items-center">
+            <!-- Slide 1 -->
+            <div class="w-[30rem]" id="slide1">
+                <img class="w-full" src="images/treeline.png" alt="Dark treeline against gray sky">
+            </div>
+            <!-- Slide 2 -->
+            <div class="w-[30rem] hidden" id="slide2">
+                <img class="w-full" src="images/sunset.png" alt="Sunset over water">
+            </div>
+            <!-- Slide 3 -->
+            <div class="w-[30rem] hidden" id="slide3">
+                <img class="w-full"  src="images/rome.png" alt="Aerial view of Rome">
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
